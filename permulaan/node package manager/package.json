@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "start-dev": "NODE_ENV=development node app.js",
+        "start": "NODE_ENV=production node app.js"
+    },
+    "dependencies": {
+        "EventEmitter": "^1.0.0",
+        "fs": "^0.0.1-security",
+        "lodash": "^4.17.21"
+    }
+}
