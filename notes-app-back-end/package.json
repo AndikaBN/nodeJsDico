@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "notes-app-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "eslint": "^9.4.0",
+    "globals": "^15.3.0",
+    "nodemon": "^3.1.3"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "nanoid": "^3.3.7"
+  }
+}
